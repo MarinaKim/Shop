@@ -8,6 +8,10 @@ namespace Shop.Model
 {
    public class ShopWW
     {
+        static ShopWW()
+        {
+
+        }
         public ShopWW() {
             //connect db
         }
@@ -35,6 +39,11 @@ namespace Shop.Model
                     product.GetProductInfo();
                 }
             }
+        }
+
+        public static void PrintShopInfo() // вызов метода без создания экземпляра
+        {
+            Console.WriteLine("*-*");
         }
     }
 }

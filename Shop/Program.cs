@@ -12,6 +12,7 @@ namespace Shop
     {
         static void Main(string[] args)
         {
+            ShopWW.PrintShopInfo();
             ShopWW shop = new ShopWW();
             shop.Address = "Кунаева 24";
             shop.Phone = " 8 777 3483493";
